@@ -40,6 +40,9 @@ function Header() {
               <>
               Welcome {userInfo.name}
               <Navbar.Text onClick={logoutHandler}>Logout</Navbar.Text>
+              <Link to='/profile' className='px-2'>
+              <Navbar.Text>Profile</Navbar.Text>
+            </Link>
               </>
             ) : (
               <>
